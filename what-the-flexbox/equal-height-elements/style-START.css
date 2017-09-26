@@ -1,4 +1,5 @@
 /* Some CSS Setup - nothing to do with flexbox */
+
 html {
   box-sizing: border-box;
 }
@@ -14,7 +15,7 @@ body {
 }
 
 a {
-  color:white;
+  color: white;
 }
 
 .item.large {
@@ -26,11 +27,21 @@ a {
 }
 
 .item {
-  background:rgba(255,255,255,0.2);
-  margin:10px;
-  padding:20px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 10px;
+  padding: 20px;
   font-size: 30px;
 }
 
+
 /* Flexbox Starts Here: */
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  flex: 0  1 calc(33.3333% - 20px);
+}
 
