@@ -1,0 +1,26 @@
+{
+  "name": "what-the-flexbox",
+  "version": "1.0.0",
+  "description": "What the flexbox tutorial",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browsersync": "browser-sync start --server --files '**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesbos/What-The-Flexbox.git"
+  },
+  "keywords": [
+    "flexbox"
+  ],
+  "author": "Usmaan Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesbos/What-The-Flexbox/issues"
+  },
+  "homepage": "https://github.com/wesbos/What-The-Flexbox#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
